@@ -1,3 +1,13 @@
+class PrintInfo
+{
+    static void print()
+    {
+        System.out.println("Likith.Tarakaram");
+        System.out.println("1BM23CS171");
+    }
+}
+
+
 public class Main 
 {
 
@@ -39,6 +49,7 @@ public class Main
 
     public static void main(String[] args)
     {
+        PrintInfo.print();
         Thread bmsThread = new BMSDisplayThread();
         Thread cseThread = new CSEDisplayThread();
         bmsThread.start();
