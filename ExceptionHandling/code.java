@@ -1,5 +1,14 @@
 import java.util.Scanner;
 
+class PrintInfo
+{
+    static void print()
+    {
+        System.out.println("Likith.Tarakaram");
+        System.out.println("1BM23CS171");
+    }
+}
+
 class WrongAgeException extends Exception {
     public WrongAgeException(String message) {
         super(message);
@@ -38,7 +47,7 @@ public class ExceptionHandlingInheritance
     public static void main(String[] args) 
         {
         Scanner scanner = new Scanner(System.in);
-
+        PrintInfo.print();
         try 
           {
             
@@ -65,4 +74,3 @@ public class ExceptionHandlingInheritance
           }
     }
 }
-
