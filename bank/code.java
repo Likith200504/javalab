@@ -90,6 +90,7 @@ public static void main(String []args)
 			{
 				System.out.println("-------MENU-------");
 				System.out.println("1.Deposit \n2.Withdraw \n3.Compute Interest \n4.Display Details \n5.Exit");
+				System.out.println("Likith.Tarakaram,1BM23CS171");
 				int choice=s.nextInt();
 				switch(choice)
 					{
@@ -121,6 +122,7 @@ public static void main(String []args)
 				{
 					System.out.println("-------MENU-------");
 					System.out.println("1.Deposit \n2.Withraw \n3.Compute Interest \n4.Display Details \n5.Exit");
+					System.out.println("Likith.Tarakaram,1BM23CS171");
 					int choice=s.nextInt();
 					switch(choice)
 					{
